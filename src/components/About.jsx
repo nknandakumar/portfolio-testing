@@ -1,11 +1,44 @@
-
 const About = () => {
   return (
-<section className="center  " >  
-     <div className=""></div>
-  <div className=""></div>
-   </section>
-  )
-}
+    <section className="bg-[#fbf4f4] py-20 md:py-32 w-[100%] px-6 md:px-12 min-h-screen flex items-center relative z-20">
+      <div className="max-w-6xl mx-auto w-full">
+        {/* Section Title */}
+        <div className="text-center mb-16">
+          <h2 className="font-main font-semibold text-[40px] md:text-[60px] text-[#151515]">
+            About Me
+          </h2>
+        </div>
 
-export default About
+        {/* Content Grid */}
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-16 items-start">
+          {/* Image Container */}
+          <div className="relative group">
+            <div className="overflow-hidden rounded-2xl shadow-lg">
+              <img 
+                src="https://images.pexels.com/photos/771742/pexels-photo-771742.jpeg" 
+                alt="Nanda Kumar M" 
+                className="w-full aspect-[3/4] md:aspect-auto md:h-[500px] object-cover object-center transform group-hover:scale-105 transition-transform duration-500"
+              />
+            </div>
+          
+          </div>
+
+          {/* Text Content */}
+          <div className="flex flex-col space-y-6 md:pl-4">
+            <p className="font-second text-lg leading-relaxed text-gray-700">
+              Hi, I'm <span className="font-semibold font-main text-[#151515]">Nanda Kumar M</span>, 
+              a full-stack web developer based in India. I specialize in crafting 
+              efficient and engaging web applications that deliver value.
+            </p>
+            <p className="font-second text-lg leading-relaxed text-gray-700">
+              Passionate about tech, I thrive on creating, developing, and adapting 
+              to challenges with a tech-savvy mindset and a drive for innovation.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default About;

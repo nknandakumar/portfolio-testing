@@ -14,6 +14,11 @@
     src: url('./assets/Fonts/TTF/Satoshi-Variable.ttf');
 }
 
+body{
+    scroll-behavior: smooth;
+
+  
+}
 
 .center{
     @apply flex justify-center items-center
@@ -21,4 +26,57 @@
 
 nav ul li{
     @apply cursor-pointer
+}
+
+.skill{
+    @apply py-10 px-10  font-main text-xl md:text-2xl flex justify-center   items-center lg:text-2xl font-semibold  border-2 border-black cursor-pointer  bg-center bg-no-repeat bg-contain 
+}
+
+.html{
+background: orangered; 
+
+}
+
+.css{
+    background: rgb(64, 190, 248);
+    
+}
+
+.js{
+    background: yellow;
+  
+    
+}
+
+.react{
+    background-color: black;
+   
+   color: rgb(255, 255, 255);
+}
+
+.tcss{
+
+    background-color: black;
+   
+    color: beige;
+
+
+}
+
+.redux{
+    background-color: rgb(114, 114, 254);
+    color: beige;
+}
+.node{
+    background-color: yellowgreen;
+}
+.express{
+    background-color: rgb(255, 255, 119);
+}
+.sql{
+    background-color: blanchedalmond;
+}
+.psql{
+   
+    background-color: rgb(127, 170, 255);
 }

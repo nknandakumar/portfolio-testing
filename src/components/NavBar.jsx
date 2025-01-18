@@ -15,7 +15,7 @@ const NavBar = () => {
   ];
 
   return (
-    <header className="fixed top-0 left-0 right-0 z-50 mb-50 ">
+    <header className="fixed top-0 left-0 right-0 z-50 ">
       <nav className="mx-4 md:mx-10 my-4">
         <div className="flex bg-gradient-to-l from-slate-900 via-gray-900 to-slate-900 justify-between items-center p-6 rounded-2xl max-w-[700px] mx-auto">
           <h1 className="font-bold text-2xl text-white">
