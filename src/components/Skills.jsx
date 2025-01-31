@@ -4,7 +4,7 @@ const Skills = () => {
   return (
     <section className="bg-[#fbf4f4] flex-col py-20 md:py-32 w-[100%] px-6 md:px-12 min-h-screen flex items-center relative z-20 " >
           <div className="text-center mb-16">
-          <h2 className="font-main font-semibold text-[40px] md:text-[60px] mb-20 text-[#151515]">
+          <h2 className="section-name">
             Skills
           </h2>
             

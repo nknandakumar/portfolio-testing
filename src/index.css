@@ -1,82 +1,79 @@
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+	font-family: clash-Display;
+	src: url("./assets/Fonts/TTF/ClashDisplay-Variable.ttf");
+}
 
 @font-face {
-    font-family: clash-Display;
-    src: url('./assets/Fonts/TTF/ClashDisplay-Variable.ttf');
+	font-family: "Satoshi";
+	src: url("./assets/Fonts/TTF/Satoshi-Variable.ttf");
 }
 
-@font-face {
-    font-family: "Satoshi";
-    src: url('./assets/Fonts/TTF/Satoshi-Variable.ttf');
+body {
+	scroll-behavior: smooth;
 }
 
-body{
-    scroll-behavior: smooth;
-
-  
+.center {
+	@apply flex justify-center items-center;
 }
 
-.center{
-    @apply flex justify-center items-center
+.section-name{
+	@apply font-main font-semibold text-[40px] md:text-[60px] mb-20 
 }
 
-nav ul li{
-    @apply cursor-pointer
+nav ul li {
+	@apply cursor-pointer;
 }
 
-.skill{
-    @apply py-10 px-10  font-main text-xl md:text-2xl flex justify-center   items-center lg:text-2xl font-semibold  border-2 border-black cursor-pointer  bg-center bg-no-repeat bg-contain 
+/** Skills Section  */
+.skill {
+	@apply py-10 px-10  font-main text-xl md:text-2xl flex justify-center   items-center lg:text-2xl font-semibold  border-2 border-black   bg-center bg-no-repeat bg-contain;
 }
 
-.html{
-background: orangered; 
-
+.html {
+	background: orangered;
 }
 
-.css{
-    background: rgb(64, 190, 248);
-    
+.css {
+	background: rgb(64, 190, 248);
 }
 
-.js{
-    background: yellow;
-  
-    
+.js {
+	background: yellow;
 }
 
-.react{
-    background-color: black;
-   
-   color: rgb(255, 255, 255);
+.react {
+	background-color: black;
+
+	color: rgb(255, 255, 255);
 }
 
-.tcss{
+.tcss {
+	background-color: black;
 
-    background-color: black;
-   
-    color: beige;
-
-
+	color: beige;
 }
 
-.redux{
-    background-color: rgb(114, 114, 254);
-    color: beige;
+.redux {
+	background-color: rgb(114, 114, 254);
+	color: beige;
 }
-.node{
-    background-color: yellowgreen;
+.node {
+	background-color: yellowgreen;
 }
-.express{
-    background-color: rgb(255, 255, 119);
+.express {
+	background-color: rgb(255, 255, 119);
 }
-.sql{
-    background-color: blanchedalmond;
+.sql {
+	background-color: blanchedalmond;
 }
-.psql{
-   
-    background-color: rgb(127, 170, 255);
+.psql {
+	background-color: rgb(127, 170, 255);
 }
+
+/* Skill section End  */
+
+
