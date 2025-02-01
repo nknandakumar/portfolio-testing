@@ -70,7 +70,7 @@ const Feats = () => {
     </p>
     <p className="text-gray-700 font-medium text-sm">
       <span className="font-semibold">Skills Gained:</span> React, Node.js, Express,
-      PostgreSQL, Tailwind CSS
+      PostgreSQL.
     </p>
   </div>
 </div>

@@ -7,11 +7,14 @@ import Projects from './../components/Projects';
 import Feats from "./../components/Feats"
 import Contact from '../components/Contact';
 
+import HeroImgs from '../components/UI/HeroImgs';
 const Home = () => {
   return (
       <div className="  ">
          <NavBar/>
+         <HeroImgs/>
          <Hero/>
+
          <About/>
          <Skills/>
          <Projects/>
