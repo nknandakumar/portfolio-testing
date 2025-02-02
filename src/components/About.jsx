@@ -4,7 +4,7 @@ const About = () => {
       <div className="max-w-6xl mx-auto w-full">
         {/* Section Title */}
         <div className="text-center mb-16">
-          <h2 className="font-main font-semibold text-[40px] md:text-[60px] text-white">
+          <h2 className="font-main font-semibold text-[40px] md:text-[60px] bg-clip-text text-transparent bg-gradient-to-b from-neutral-200 to-neutral-500">
             About Me
           </h2>
         </div>

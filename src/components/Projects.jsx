@@ -4,7 +4,7 @@ const image =
 const Projects = () => {
   return (
     <section className="flex flex-col items-center bg-black pb-20 relative z-20 px-6 lg:px-32">
-      <h2 className="section-name pt-20 text-white">Projects</h2>
+      <h2 className="section-name pt-20 bg-clip-text text-transparent bg-gradient-to-b from-neutral-200 to-neutral-300">Projects</h2>
 
       {/* Responsive Grid */}
       <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-6 mt-10">

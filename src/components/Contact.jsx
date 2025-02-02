@@ -6,7 +6,7 @@ const Contact = () => {
 
   return (
     <div className="center flex flex-col items-center bg-black pb-20 relative text-white z-20 px-6 lg:px-32">
-      <h2 className="font-main font-semibold text-[40px] md:text-[60px] text-white pt-20 mb-2">Contact</h2>
+      <h2 className="font-main font-semibold text-[40px] md:text-[60px] bg-clip-text text-transparent bg-gradient-to-b from-neutral-200 to-neutral-300 pt-20 mb-2">Contact</h2>
       
       <blockquote className="text-xl italic font-semibold text-gray-900 dark:text-white text-center">
         <p>"I'm excited to connect with other developers and collaborate on projects or learn from experienced professionals."</p>

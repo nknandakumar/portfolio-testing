@@ -3,7 +3,7 @@ const image =
 
 const Feats = () => {
 	return (
-		<section className="center flex flex-col items-center bg-[#ff4a23] pb-20 relative z-20 px-6 lg:px-32">
+		<section className="center flex flex-col items-center bg-[#ff4a23] pb-20 relative z-20 px-6 lg:px-32 bg-[linear-gradient(to_right,rgba(211,211,211,0.3)_1px,transparent_1px),linear-gradient(to_bottom,rgba(211,211,211,0.3)_1px,transparent_1px)] bg-[size:60px_60px]">
 			<h2 className="section-name pt-20 text-white text-3xl font-bold">
 				Feats & Achievements
 			</h2>
