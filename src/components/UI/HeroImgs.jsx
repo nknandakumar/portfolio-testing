@@ -9,7 +9,7 @@ const HeroImgs = () => {
         <img 
           src={code} 
           alt="Code" 
-          className="w-16 sm:w-20 md:w-20 lg:w-24 animate-up-down"
+          className="w-16 sm:w-20 md:w-20 lg:w-24 animate-up-down brightness-150 grayscale-[80%]"
         />
         
         {/* Right image moves down first */}

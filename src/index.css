@@ -91,4 +91,30 @@ nav ul li {
 
 /* Skill section End  */
 
+/*Feats Section */
+/* Custom Swiper Pagination Styles */
+.swiper-pagination {
+	position: static; /* Move pagination below the cards */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 25px;
+}
 
+.swiper-pagination-bullet {
+	width: 16px;
+	height: 16px;
+	background-color: #fff; /* Default color */
+	opacity: 0.5;
+	margin: 0 6px;
+	transition: all 0.3s ease;
+	
+}
+
+.swiper-pagination-bullet-active {
+	background-color: #170602; /* Active dot color */
+	opacity: 1;
+	transform: scale(1.5); /* Slightly larger active dot */
+	border: 1px #170602 solid;
+	
+}
