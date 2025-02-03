@@ -49,13 +49,13 @@ const Skills = () => {
             <h2 className="text-2xl font-semibold mt-[-38px] border-2 border-black bg-slate-50">Backend</h2>
             <span className="h-2 bg-black my-[-20px]">|</span>
             <div className="grid grid-cols-2">
-              <span className="skill node">Node Js</span>
-              <span className="skill express">Express Js</span>
+              <span className="skill node"><span>Node Js</span></span>
+              <span className="skill express"><span>Express Js</span></span>
             </div>
             <h2 className="text-2xl font-semibold border-2 border-black bg-slate-50 my-4">Database</h2>
             <div className="grid grid-cols-2">
-              <span className="skill sql">SQL</span>
-              <span className="skill psql">Postgres SQL</span>
+              <span className="skill sql"><span>SQL</span></span>
+              <span className="skill psql"><span>Postgres SQL</span></span>
             </div>
           </div>
         </div>
