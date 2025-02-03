@@ -1,17 +1,24 @@
+import { motion } from 'framer-motion';
+
 const image =
 	"https://edison365.com/wp-content/uploads/2022/03/How-do-hackathons-work.png";
 
 const Feats = () => {
 	return (
 		<section className="center flex flex-col items-center bg-[#ff4a23] pb-20 relative z-20 px-6 lg:px-32 bg-[linear-gradient(to_right,rgba(211,211,211,0.3)_1px,transparent_1px),linear-gradient(to_bottom,rgba(211,211,211,0.3)_1px,transparent_1px)] bg-[size:60px_60px]">
-			<h2 className="section-name pt-20 text-white text-3xl font-bold">
+			<motion.h2 
+			        initial={{ opacity: 0, y: 100 }}
+					whileInView={{ opacity: 1, y: 0 }}
+					viewport={{ once: true }}
+					transition={{ duration: 1, ease: "easeOut" }}
+			className="section-name pt-20 text-white text-3xl font-bold">
 				Feats & Achievements
-			</h2>
+			</motion.h2>
 
 			{/* Flex Container for Cards */}
 			<div className="flex flex-wrap justify-center gap-10 mt-10 w-full max-w-6xl">
 				{/* Card 1 - Hackathon Achievement */}
-				<div className="w-full max-w-sm bg-white shadow-lg rounded-2xl p-6 h-[420px] flex flex-col justify-between hover:shadow-2xl transition-shadow duration-300 group">
+				<div className="w-full max-w-sm bg-white shadow-lg rounded-2xl p-6 h-[420px] flex flex-col justify-between hover:shadow-2xl transition-shadow duration-300 group dot-bg ">
 					{/* Image Section */}
 					<div className="overflow-hidden rounded-xl">
 						<img
@@ -23,7 +30,7 @@ const Feats = () => {
 
 					{/* Content */}
 					<div className="mt-4 flex flex-col gap-3">
-						<h3 className="text-lg md:text-xl font-semibold text-gray-800 flex items-center gap-2">
+						<h3 className="text-lg font-main md:text-xl font-semibold text-gray-800 flex items-center gap-2">
 							🏆{" "}
 							<span>
 								Secured{" "}
@@ -48,7 +55,7 @@ const Feats = () => {
 					</div>
 				</div>
 				{/* Card 2 - Full Stack Bootcamp */}
-        <div className="w-full max-w-sm bg-white shadow-lg rounded-2xl p-6 h-[420px] flex flex-col justify-between hover:shadow-2xl transition-shadow duration-300 group">
+        <div className="w-full max-w-sm bg-white shadow-lg rounded-2xl p-6 h-[420px] flex flex-col justify-between hover:shadow-2xl transition-shadow duration-300 group dot-bg">
   {/* Image Section */}
   <div className="overflow-hidden rounded-xl relative">
     <img
@@ -62,7 +69,7 @@ const Feats = () => {
 
   {/* Content */}
   <div className="mt-4 flex flex-col gap-3">
-    <h3 className="text-lg md:text-xl font-semibold text-gray-800">
+    <h3 className="text-lg font-main md:text-xl font-semibold text-gray-800">
       💻 Completed Full Stack Web Development Bootcamp
     </h3>
     <p className="text-gray-600 text-sm md:text-base leading-relaxed">

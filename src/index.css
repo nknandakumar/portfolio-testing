@@ -28,10 +28,25 @@ nav ul li {
 	@apply cursor-pointer;
 }
 
+.dot-bg{
+ @apply	bg-[radial-gradient(circle,#80808040_1px,transparent_1px)] bg-[size:14px_14px]
+}
+
 /** Skills Section  */
 .skill {
-	@apply py-10 px-10  font-main text-xl md:text-2xl flex justify-center   items-center lg:text-2xl font-semibold  border-2 border-black   bg-center bg-no-repeat bg-contain;
-}
+	@apply py-10 px-10 font-main text-xl md:text-2xl flex justify-center items-center lg:text-2xl font-semibold border-2 border-black bg-center bg-no-repeat bg-contain overflow-hidden cursor-pointer transition-all duration-300;
+  }
+  
+  .skill span {
+	@apply transition-transform duration-300 ease-in-out;
+  }
+  
+  /* Ensure smooth rollback effect */
+  .skill:hover span {
+	@apply scale-110;
+  }
+  
+  
 
 .html {
 	background: orangered;
@@ -77,17 +92,3 @@ nav ul li {
 /* Skill section End  */
 
 
-.hero-sec{
-
-		--dot-bg: #f9f9f9; /* Light background */
-		--dot-color: #333;  /* Dark dots */
-		--dot-size: 1px;
-		--dot-space: 22px;
-		
-		background:
-		  linear-gradient(90deg, var(--dot-bg) calc(var(--dot-space) - var(--dot-size)), transparent 1%) center / var(--dot-space) var(--dot-space),
-		  linear-gradient(var(--dot-bg) calc(var(--dot-space) - var(--dot-size)), transparent 1%) center / var(--dot-space) var(--dot-space),
-		  var(--dot-color);
-
-	  
-}

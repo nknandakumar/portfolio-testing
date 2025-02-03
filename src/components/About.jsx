@@ -2,6 +2,8 @@ import ProfileImage from "../assets/images/profileImage.jpg"
 
 import { motion } from 'framer-motion';
 
+
+
 const AnimatedText = ({ text, className, delay = 0, customSpanStyles = {} }) => {
   // Split text into words
   const words = text.split(" ");
@@ -85,10 +87,10 @@ const About = () => {
         {/* Section Title */}
         <div className="text-center mb-16">
           <motion.h2 
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 1.5, ease: "easeOut" }}
+         initial={{ opacity: 0, y: 100 }}
+         whileInView={{ opacity: 1, y: 0 }}
+         viewport={{ once: true }}
+         transition={{ duration: 1, ease: "easeOut" }}
             className="font-main font-semibold text-[40px] md:text-[60px] bg-clip-text text-transparent bg-gradient-to-b from-neutral-200 to-neutral-500"
           >
             About Me
@@ -102,7 +104,7 @@ const About = () => {
             initial={{ opacity: 0, x: -50 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
-            transition={{ duration: 0.8, ease: "easeOut" }}
+            transition={{ duration: 1.5, ease: "easeOut" }}
             className="relative group"
           >
             <div className="overflow-hidden rounded-2xl shadow-lg">
