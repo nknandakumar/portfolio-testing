@@ -19,7 +19,7 @@ const NavBar = () => {
   return (
     <header className="fixed top-0 left-0 right-0 z-50">
       <nav className="mx-4 md:mx-10 my-4">
-        <div className="flex justify-between items-center p-6 rounded-2xl max-w-[700px] mx-auto bg-[#3c3c3c] shadow-[0_4px_6px_rgba(255,255,255,0.2),inset_0_-6px_12px_rgba(255,255,255,0.3)]">
+        <div className="flex justify-between items-center p-6 rounded-2xl max-w-[700px] mx-auto bg-[#3c3c3c] shadow-[inset_0_-6px_19px_rgba(255,255,255,0.3)]">
           <h1 className="font-bold text-2xl text-white">
             <span className="text-[#ff4a23]"><FontAwesomeIcon icon={faFire} /></span>NK
           </h1>
