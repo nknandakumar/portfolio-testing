@@ -1,6 +1,8 @@
 import { motion } from 'framer-motion';
 import SplitText from './UI/SplitText';
-import {MoveRight} from "lucide-react"
+
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
 
 const Hero = () => {
   return (
@@ -55,7 +57,8 @@ const Hero = () => {
       >
      <button className="font-main flex items-center font-bold text-white  text-base leading-none px-6 py-2 rounded-3xl bg-[#ff4a23] text-[18px] hover:bg-[#774dff] transition-colors duration-300 group">
       Let's Connect
-      <MoveRight className="ml-6 w-5 h-5 transform  -rotate-45 transition-transform duration-300 group-hover:rotate-0" />
+    
+      <FontAwesomeIcon className='ml-6  font-thin transform  -rotate-45 transition-transform duration-300 group-hover:rotate-0' icon={faArrowRight} /> 
     </button>
       </motion.div>
     </section>
