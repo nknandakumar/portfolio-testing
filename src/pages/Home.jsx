@@ -25,7 +25,7 @@ const Home = () => {
                     originX: 0,
                    
                 }}
-                className='mb-10 z-50 bg-blue-300 border-b-2 border-black bottom-4'
+                className='mb-10 z-50 bg-gray-300 border-b-2 border-black'
             />
 
          <NavBar/>
