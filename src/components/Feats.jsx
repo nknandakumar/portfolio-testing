@@ -12,13 +12,13 @@ const image =
 
 const Feats = () => {
 	return (
-		<section className="center flex flex-col items-center  bg-[#ff4a23] pb-24 relative z-20 px-6 lg:px-32 bg-[linear-gradient(to_right,rgba(211,211,211,0.3)_1px,transparent_1px),linear-gradient(to_bottom,rgba(211,211,211,0.3)_1px,transparent_1px)] bg-[size:60px_60px]">
+		<section id="feats" className="center flex flex-col items-center  bg-[#ff4a23] pb-24 relative z-20 px-6 lg:px-32 bg-[linear-gradient(to_right,rgba(211,211,211,0.3)_1px,transparent_1px),linear-gradient(to_bottom,rgba(211,211,211,0.3)_1px,transparent_1px)] bg-[size:60px_60px]">
 			<motion.h2
 				initial={{ opacity: 0, y: 100 }}
 				whileInView={{ opacity: 1, y: 0 }}
 				viewport={{ once: true }}
 				transition={{ duration: 1, ease: "easeOut" }}
-				className="section-name pt-20 text-white text-3xl font-bold"
+				className="section-name pt-28 text-white text-3xl font-bold"
 			>
 				Feats & Achievements
 			</motion.h2>

@@ -15,7 +15,7 @@ const Skills = () => {
   ];
 
   return (
-    <section className="bg-[#fbf4f4] flex-col py-20 md:py-32 w-[100%] px-6 md:px-12 min-h-screen flex items-center relative z-20">
+    <section id="skills" className="bg-[#fbf4f4] flex-col py-20 md:py-32 w-[100%] px-6 md:px-12 min-h-screen flex items-center relative z-20">
       <div className="text-center mb-16">
         <motion.h2 
           initial={{ opacity: 0, y: 100 }}

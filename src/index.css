@@ -118,3 +118,8 @@ nav ul li {
 	border: 1px #170602 solid;
 	
 }
+
+
+#home {
+	scroll-margin-top: 5000px; /* Adjust based on header height */
+  }

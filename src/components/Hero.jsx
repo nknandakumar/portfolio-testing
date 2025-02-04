@@ -6,9 +6,9 @@ import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
 
 const Hero = () => {
   return (
-    <section  className="Hero-sec center flex-col py-52 space-y-6 md:px-20 md:pt-24px h-[100vh] sticky top-0 bg-[radial-gradient(circle,#80808070_1px,transparent_1px)] bg-[size:14px_14px]
+      <section id="home"  className="Hero-sec center flex-col py-52 space-y-6 md:px-20 md:pt-24px h-[100vh] sticky top-0 bg-[radial-gradient(circle,#80808070_1px,transparent_1px)] bg-[size:14px_14px]
 
-">
+  ">
       {/* Animated Presence for h2 */}
       <motion.h2
         className="font-main text-[20px] md:text-[34px] lg:text-[52px] mb-2 font-semibold text-black"

@@ -7,7 +7,7 @@ const image =
 
 const Projects = () => {
   return (
-    <section className="flex flex-col items-center bg-black pb-20 relative z-20 px-6 lg:px-32">
+    <section id="projects" className="flex flex-col items-center bg-black pb-28 relative z-20 px-6 lg:px-32">
       {/* Section Title Animation */}
       <motion.h2
         initial={{ opacity: 0, y: 100 }}
